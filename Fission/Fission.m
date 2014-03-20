@@ -59,7 +59,7 @@ static Fission *sharedInstance = nil;
     }
     if (self = [self init]) {
         self.token = token;
-        self.serverURL = @"http://fission.10.0.1.19.xip.io";
+        self.serverURL = @"http://fission-demo.herokuapp.com";
         NSMutableDictionary *properties = [self collectSystemProperties];
         [properties addEntriesFromDictionary:@{ @"app" : @{ @"token" : self.token }}];
         [self loadExperiments];

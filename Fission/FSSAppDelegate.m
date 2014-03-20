@@ -13,7 +13,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    Fission *fission = [Fission sharedInstanceWithToken:@"66afd95694038622cd173ccebc22162e"];
+    Fission *fission = [Fission sharedInstanceWithToken:@"2309bca6e91f877b8dfa5972bd715a52"];
     
     FSSViewController *viewController = [[FSSViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
