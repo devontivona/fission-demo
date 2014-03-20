@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		919B432F18CE73C600175A37 /* Fission.m in Sources */ = {isa = PBXBuildFile; fileRef = 919B432E18CE73C600175A37 /* Fission.m */; };
+		91AB72A318D7627B0075BDFD /* NSArray+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AB72A218D7627B0075BDFD /* NSArray+Map.m */; };
+		91CBACE718C5258A00404551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CBACE618C5258A00404551 /* Foundation.framework */; };
+		91CBACE918C5258A00404551 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CBACE818C5258A00404551 /* CoreGraphics.framework */; };
+		91CBACEB18C5258A00404551 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CBACEA18C5258A00404551 /* UIKit.framework */; };
+		91CBACF118C5258A00404551 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91CBACEF18C5258A00404551 /* InfoPlist.strings */; };
+		91CBACF318C5258A00404551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CBACF218C5258A00404551 /* main.m */; };
+		91CBACF718C5258A00404551 /* FSSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CBACF618C5258A00404551 /* FSSAppDelegate.m */; };
+		91CBACFD18C5258A00404551 /* FSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CBACFC18C5258A00404551 /* FSSViewController.m */; };
+		91CBACFF18C5258A00404551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91CBACFE18C5258A00404551 /* Images.xcassets */; };
+		91CBAD0618C5258A00404551 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CBAD0518C5258A00404551 /* XCTest.framework */; };
+		91CBAD0718C5258A00404551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CBACE618C5258A00404551 /* Foundation.framework */; };
+		91CBAD0818C5258A00404551 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CBACEA18C5258A00404551 /* UIKit.framework */; };
+		91CBAD1018C5258A00404551 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91CBAD0E18C5258A00404551 /* InfoPlist.strings */; };
+		91CBAD1218C5258A00404551 /* FissionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CBAD1118C5258A00404551 /* FissionTests.m */; };
+		E1F62741159242BE87094951 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 564881AC2A1F40D6B9CDE4EB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91CBAD0918C5258A00404551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91CBACDB18C5258A00404551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91CBACE218C5258A00404551;
+			remoteInfo = Fission;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E5479CE637D404485CFABED /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		564881AC2A1F40D6B9CDE4EB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		919B432D18CE73C600175A37 /* Fission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fission.h; sourceTree = "<group>"; };
+		919B432E18CE73C600175A37 /* Fission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fission.m; sourceTree = "<group>"; };
+		91AB72A118D7627B0075BDFD /* NSArray+Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Map.h"; sourceTree = "<group>"; };
+		91AB72A218D7627B0075BDFD /* NSArray+Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Map.m"; sourceTree = "<group>"; };
+		91CBACE318C5258A00404551 /* Fission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fission.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CBACE618C5258A00404551 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91CBACE818C5258A00404551 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91CBACEA18C5258A00404551 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91CBACEE18C5258A00404551 /* Fission-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fission-Info.plist"; sourceTree = "<group>"; };
+		91CBACF018C5258A00404551 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91CBACF218C5258A00404551 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91CBACF418C5258A00404551 /* Fission-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fission-Prefix.pch"; sourceTree = "<group>"; };
+		91CBACF518C5258A00404551 /* FSSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSSAppDelegate.h; sourceTree = "<group>"; };
+		91CBACF618C5258A00404551 /* FSSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSAppDelegate.m; sourceTree = "<group>"; };
+		91CBACFB18C5258A00404551 /* FSSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSSViewController.h; sourceTree = "<group>"; };
+		91CBACFC18C5258A00404551 /* FSSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSSViewController.m; sourceTree = "<group>"; };
+		91CBACFE18C5258A00404551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91CBAD0418C5258A00404551 /* FissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FissionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CBAD0518C5258A00404551 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		91CBAD0D18C5258A00404551 /* FissionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FissionTests-Info.plist"; sourceTree = "<group>"; };
+		91CBAD0F18C5258A00404551 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91CBAD1118C5258A00404551 /* FissionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FissionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91CBACE018C5258A00404551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CBACE918C5258A00404551 /* CoreGraphics.framework in Frameworks */,
+				91CBACEB18C5258A00404551 /* UIKit.framework in Frameworks */,
+				91CBACE718C5258A00404551 /* Foundation.framework in Frameworks */,
+				E1F62741159242BE87094951 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CBAD0118C5258A00404551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CBAD0618C5258A00404551 /* XCTest.framework in Frameworks */,
+				91CBAD0818C5258A00404551 /* UIKit.framework in Frameworks */,
+				91CBAD0718C5258A00404551 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91CBACDA18C5258A00404551 = {
+			isa = PBXGroup;
+			children = (
+				91CBACEC18C5258A00404551 /* Fission */,
+				91CBAD0B18C5258A00404551 /* FissionTests */,
+				91CBACE518C5258A00404551 /* Frameworks */,
+				91CBACE418C5258A00404551 /* Products */,
+				1E5479CE637D404485CFABED /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		91CBACE418C5258A00404551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91CBACE318C5258A00404551 /* Fission.app */,
+				91CBAD0418C5258A00404551 /* FissionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91CBACE518C5258A00404551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91CBACE618C5258A00404551 /* Foundation.framework */,
+				91CBACE818C5258A00404551 /* CoreGraphics.framework */,
+				91CBACEA18C5258A00404551 /* UIKit.framework */,
+				91CBAD0518C5258A00404551 /* XCTest.framework */,
+				564881AC2A1F40D6B9CDE4EB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91CBACEC18C5258A00404551 /* Fission */ = {
+			isa = PBXGroup;
+			children = (
+				91CBACF518C5258A00404551 /* FSSAppDelegate.h */,
+				91CBACF618C5258A00404551 /* FSSAppDelegate.m */,
+				91CBACFB18C5258A00404551 /* FSSViewController.h */,
+				91CBACFC18C5258A00404551 /* FSSViewController.m */,
+				919B432D18CE73C600175A37 /* Fission.h */,
+				919B432E18CE73C600175A37 /* Fission.m */,
+				91AB72A118D7627B0075BDFD /* NSArray+Map.h */,
+				91AB72A218D7627B0075BDFD /* NSArray+Map.m */,
+				91CBACFE18C5258A00404551 /* Images.xcassets */,
+				91CBACED18C5258A00404551 /* Supporting Files */,
+			);
+			path = Fission;
+			sourceTree = "<group>";
+		};
+		91CBACED18C5258A00404551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91CBACEE18C5258A00404551 /* Fission-Info.plist */,
+				91CBACEF18C5258A00404551 /* InfoPlist.strings */,
+				91CBACF218C5258A00404551 /* main.m */,
+				91CBACF418C5258A00404551 /* Fission-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91CBAD0B18C5258A00404551 /* FissionTests */ = {
+			isa = PBXGroup;
+			children = (
+				91CBAD1118C5258A00404551 /* FissionTests.m */,
+				91CBAD0C18C5258A00404551 /* Supporting Files */,
+			);
+			path = FissionTests;
+			sourceTree = "<group>";
+		};
+		91CBAD0C18C5258A00404551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91CBAD0D18C5258A00404551 /* FissionTests-Info.plist */,
+				91CBAD0E18C5258A00404551 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91CBACE218C5258A00404551 /* Fission */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CBAD1518C5258A00404551 /* Build configuration list for PBXNativeTarget "Fission" */;
+			buildPhases = (
+				FC19B073EAA94188BF0C2A7A /* Check Pods Manifest.lock */,
+				91CBACDF18C5258A00404551 /* Sources */,
+				91CBACE018C5258A00404551 /* Frameworks */,
+				91CBACE118C5258A00404551 /* Resources */,
+				9BA34BB8402346CBA0050B34 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fission;
+			productName = Fission;
+			productReference = 91CBACE318C5258A00404551 /* Fission.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91CBAD0318C5258A00404551 /* FissionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CBAD1818C5258A00404551 /* Build configuration list for PBXNativeTarget "FissionTests" */;
+			buildPhases = (
+				91CBAD0018C5258A00404551 /* Sources */,
+				91CBAD0118C5258A00404551 /* Frameworks */,
+				91CBAD0218C5258A00404551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91CBAD0A18C5258A00404551 /* PBXTargetDependency */,
+			);
+			name = FissionTests;
+			productName = FissionTests;
+			productReference = 91CBAD0418C5258A00404551 /* FissionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91CBACDB18C5258A00404551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FSS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Devon Tivona";
+				TargetAttributes = {
+					91CBAD0318C5258A00404551 = {
+						TestTargetID = 91CBACE218C5258A00404551;
+					};
+				};
+			};
+			buildConfigurationList = 91CBACDE18C5258A00404551 /* Build configuration list for PBXProject "Fission" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91CBACDA18C5258A00404551;
+			productRefGroup = 91CBACE418C5258A00404551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91CBACE218C5258A00404551 /* Fission */,
+				91CBAD0318C5258A00404551 /* FissionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91CBACE118C5258A00404551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CBACFF18C5258A00404551 /* Images.xcassets in Resources */,
+				91CBACF118C5258A00404551 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CBAD0218C5258A00404551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CBAD1018C5258A00404551 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BA34BB8402346CBA0050B34 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC19B073EAA94188BF0C2A7A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91CBACDF18C5258A00404551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CBACF318C5258A00404551 /* main.m in Sources */,
+				91CBACF718C5258A00404551 /* FSSAppDelegate.m in Sources */,
+				91AB72A318D7627B0075BDFD /* NSArray+Map.m in Sources */,
+				91CBACFD18C5258A00404551 /* FSSViewController.m in Sources */,
+				919B432F18CE73C600175A37 /* Fission.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CBAD0018C5258A00404551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CBAD1218C5258A00404551 /* FissionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91CBAD0A18C5258A00404551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91CBACE218C5258A00404551 /* Fission */;
+			targetProxy = 91CBAD0918C5258A00404551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91CBACEF18C5258A00404551 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91CBACF018C5258A00404551 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91CBAD0E18C5258A00404551 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91CBAD0F18C5258A00404551 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91CBAD1318C5258A00404551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91CBAD1418C5258A00404551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91CBAD1618C5258A00404551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5479CE637D404485CFABED /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fission/Fission-Prefix.pch";
+				INFOPLIST_FILE = "Fission/Fission-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91CBAD1718C5258A00404551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5479CE637D404485CFABED /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fission/Fission-Prefix.pch";
+				INFOPLIST_FILE = "Fission/Fission-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91CBAD1918C5258A00404551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fission.app/Fission";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fission/Fission-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FissionTests/FissionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		91CBAD1A18C5258A00404551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fission.app/Fission";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fission/Fission-Prefix.pch";
+				INFOPLIST_FILE = "FissionTests/FissionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91CBACDE18C5258A00404551 /* Build configuration list for PBXProject "Fission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CBAD1318C5258A00404551 /* Debug */,
+				91CBAD1418C5258A00404551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CBAD1518C5258A00404551 /* Build configuration list for PBXNativeTarget "Fission" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CBAD1618C5258A00404551 /* Debug */,
+				91CBAD1718C5258A00404551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CBAD1818C5258A00404551 /* Build configuration list for PBXNativeTarget "FissionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CBAD1918C5258A00404551 /* Debug */,
+				91CBAD1A18C5258A00404551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91CBACDB18C5258A00404551 /* Project object */;
+}
